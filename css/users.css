@@ -1,3 +1,10 @@
+main {
+	min-height: 50vh;
+	padding-bottom: 150px;
+}
+/**
+* user detail
+*/
 #user {
 	background: linear-gradient(to bottom, lavender 30%, white 70%);
 	border-radius: 20px;
@@ -31,4 +38,14 @@
 .nav-tabs .nav-link.active {
 	color: royalblue;
 	border-color: cornflowerblue cornflowerblue white;
+}
+/**
+* footer
+*/
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background:rgba(72, 61, 139, 0.95);
+	z-index: 9;
 }

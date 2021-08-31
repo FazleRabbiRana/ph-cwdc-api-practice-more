@@ -1,3 +1,10 @@
+main {
+	min-height: 50vh;
+	padding-bottom: 150px;
+}
+/**
+* all comments
+*/
 #all_comments > .col > div {
 	background-color: lavender;
 	cursor: pointer;
@@ -69,4 +76,14 @@
 	border-radius: 50%;
 	background: lightblue;
 	border-color: lavender;
+}
+/**
+* footer
+*/
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background:rgba(72, 61, 139, 0.95);
+	z-index: 9;
 }
