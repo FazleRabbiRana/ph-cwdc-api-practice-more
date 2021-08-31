@@ -1,0 +1,72 @@
+#all_comments > .col > div {
+	background-color: lavender;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+#all_comments > .col > div:hover {
+	background-color: gainsboro;
+}
+.comment-serial {
+	background: white;
+	border: 1px solid lightblue;
+	border-radius: 4px;
+}
+.comment-text::first-letter {
+	display: inline-block;
+	text-transform: uppercase;
+}
+/**
+* comment details
+*/
+#comment_details {
+	margin: 0 auto;
+	width: clamp(50%, 600px, calc(100% - 44px));
+	max-height: 75%;
+	overflow: hidden;
+	overflow-y: auto;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.2s ease;
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+#comment_details.opened {
+	z-index: 99;
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+}
+#comment_details .comment {
+	background: rgba(25, 25, 25, 0.9);
+}
+#comment_details_close {
+	font-size: 18px;
+	line-height: 1;
+	display: block;
+	position: sticky;
+	top: 0;
+	right: 0;
+	margin: 0 0 0 auto; 
+	padding: 10px 12px;
+	background: red;
+	border-top-right-radius: 0.3rem;
+	opacity: 0.7;
+	transition: all 0.2s ease;
+}
+#comment_details_close:hover {
+	opacity: 1;
+}
+#comment_details .comment-serial {
+	font-size: 18px;
+	width: 60px;
+	height: 60px;
+	line-height: 58px;
+	border-width: 3px;
+	border-radius: 50%;
+	background: lightblue;
+	border-color: lavender;
+}

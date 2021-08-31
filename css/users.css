@@ -1,0 +1,34 @@
+#user {
+	background: linear-gradient(to bottom, lavender 30%, white 70%);
+	border-radius: 20px;
+}
+.user-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: #f0f0f0;
+	border: 7px solid #fafafa;
+	overflow: hidden;
+}
+.tab-pane {
+	min-height: 80px;
+}
+.nav-tabs {
+	border-bottom-color: cornflowerblue;
+	border-width: 2px;
+}
+.nav-tabs .nav-link {
+	color: cornflowerblue;
+	padding: 0.5rem 0.8rem;
+	margin-bottom: -2px;
+	border: 2px solid transparent;
+}
+.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef cornflowerblue;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	color: royalblue;
+	border-color: cornflowerblue cornflowerblue white;
+}

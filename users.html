@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Users | API Practice More</title>
+
+	<!-- bootstrap css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<!-- custom css -->
+	<link rel="stylesheet" href="./css/users.css">
+</head>
+<body class="bg-light">
+	<header class="text-center py-4">
+		<h1 class="text-success">API Practice More (Module-33_5)</h1>
+		<nav class="d-flex justify-content-center mt-4">
+			<a href="./index.html" class="btn btn-primary mx-1">Home</a>
+			<a href="./comments.html" class="btn btn-primary mx-1">Comments</a>
+			<a href="./users.html" class="btn btn-primary mx-1 active">Users</a>
+		</nav>
+	</header>
+
+	<main>
+		<!-- heading -->
+		<div class="container text-center py-4">
+			<h2>Users</h2>
+			<p id="api_location"></p>
+			<button type="button" onclick="loadUser()" id="load_user_btn" class="btn btn-warning text-black px-3">Load Another User</button>
+		</div>
+
+		<!-- users -->
+		<section class="container mb-5">
+			<div id="user" class="p-2 p-sm-4 text-center shadow"></div>
+		</section>
+	</main>
+
+
+
+	<!-- scripts -->
+	<!-- bootstrap js -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	<!-- custom js -->
+	<script src="./js/users.js"></script>
+</body>
+</html>
