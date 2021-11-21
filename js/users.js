@@ -55,7 +55,7 @@ const displayUsers = user => {
 				<p class="user-value mb-0">${user.location.state}, ${user.location.country}</p>
 			</div>
 		</div>
-		<nav class="my-5">
+		<nav class="mt-4 mb-2 mb-sm-0">
 			<div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
 				<button class="nav-link fw-bold active" id="nav_name_tab" data-bs-toggle="tab" data-bs-target="#nav_name" type="button" role="tab" aria-selected="true">Name</button>
 				<button class="nav-link fw-bold" id="nav_dob_tab" data-bs-toggle="tab" data-bs-target="#nav_dob" type="button" role="tab" aria-selected="false">DOB</button>
